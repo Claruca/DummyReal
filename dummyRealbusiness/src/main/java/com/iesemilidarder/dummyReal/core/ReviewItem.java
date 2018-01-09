@@ -30,8 +30,6 @@ public class ReviewItem extends DBObject {
 
         return id;
     }
-
-
     protected void beforeSave() {
         doLog("todo!");
 

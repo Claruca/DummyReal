@@ -24,8 +24,8 @@ public class User extends DBObject {
     public void beforeSave() {
         doLog(String.format("Saving %s", this.getClass()));
 
-
     }
+
 
 
 }

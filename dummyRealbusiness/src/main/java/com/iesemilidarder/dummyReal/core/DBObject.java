@@ -7,7 +7,7 @@ import org.slf4j.LoggerFactory;
 
 public abstract class DBObject implements IDatabaseActions {
 
-    private final Logger log = LoggerFactory.getLogger(DBObject.class);
+    private static final Logger log = LoggerFactory.getLogger(DBObject.class);
 
     protected abstract void beforeSave();
 
@@ -20,9 +20,10 @@ public abstract class DBObject implements IDatabaseActions {
 
         }
     }
-    public void delete(){
-        log.error("Not implemented yet");
-    }
+
+    public void delete() { log.error("Not implemented yet");}
+
+    public void update() {log.error("Not implemented yet");}
 
 
     protected void doLog(String txt) {
