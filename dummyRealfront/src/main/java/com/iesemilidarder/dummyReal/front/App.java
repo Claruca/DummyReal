@@ -15,6 +15,7 @@ import static spark.Spark.port;
 
 public class App {
 //En esta lista de objetos solo podré poner usuarios. Genéricos.
+
     private static List<User> lUser = new ArrayList<User>();
 
     private static final Logger log = LoggerFactory.getLogger(App.class);
@@ -32,7 +33,7 @@ public class App {
     DBObject dbo = lUser.get(0);
 
     // Method to check html output or not
-    
+
     private static boolean shouldReturnHtml(Request request) {
         String accept = request.headers("Accept");
         return StringUtils.contains(accept, "text/html");
