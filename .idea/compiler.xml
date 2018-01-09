@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dummyRealauthor" />
+        <module name="dummyRealbusiness" />
+        <module name="dummyRealfront" />
+        <module name="dummyRealrest" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="DummyReal" target="1.8" />
+      <module name="dummyRealauthor" target="1.8" />
+      <module name="dummyRealbusiness" target="1.8" />
+      <module name="dummyRealfront" target="1.8" />
+      <module name="dummyRealrest" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
